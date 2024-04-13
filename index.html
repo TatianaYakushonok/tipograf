@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="/css/style.css" rel="stylesheet">
+  <script src="js/script.js" defer></script>
+  <title>Типограф</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <h1 class="header__title">Типограф</h1>
+    </div>
+  </header>
+
+  <main class="main">
+    <div class="container main__container">
+
+      <div class="wrapper">
+        <form id="form" action="#">
+          <textarea class="form__text" name="text" id="text" cols="30" rows="10"
+            placeholder="Введите текст..."></textarea>
+        </form>
+
+        <div class="output"></div>
+      </div>
+
+      <button form="form" class="form__btn form__btn-reset"
+        type="reset">Очистить</button>
+      <button form="form" class="form__btn form__btn-submit"
+        type="submit">Оттипографить</button>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p class="footer__copyright">&copy; Татьяна Якушонок 2024г.</p>
+    </div>
+  </footer>
+</body>
+
+</html>
